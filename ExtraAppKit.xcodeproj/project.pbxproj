@@ -13,6 +13,7 @@
 		7B8C1F471B6DC4930031EDDA /* NSOutlineView+SaveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F461B6DC4930031EDDA /* NSOutlineView+SaveState.swift */; };
 		7B8C1F491B6DCAE00031EDDA /* FilterableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F481B6DCAE00031EDDA /* FilterableDataSource.swift */; };
 		7B8C1F4B1B6DDA2E0031EDDA /* FilterableOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F4A1B6DDA2E0031EDDA /* FilterableOutlineView.swift */; };
+		7B908BB11B71D3720039B622 /* NSPopUpButton+Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7B8C1F461B6DC4930031EDDA /* NSOutlineView+SaveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSOutlineView+SaveState.swift"; sourceTree = "<group>"; };
 		7B8C1F481B6DCAE00031EDDA /* FilterableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterableDataSource.swift; sourceTree = "<group>"; };
 		7B8C1F4A1B6DDA2E0031EDDA /* FilterableOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterableOutlineView.swift; sourceTree = "<group>"; };
+		7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPopUpButton+Object.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				7B8C1F4A1B6DDA2E0031EDDA /* FilterableOutlineView.swift */,
 				7B8C1F3E1B6DBDB80031EDDA /* Info.plist */,
 				7B8C1F461B6DC4930031EDDA /* NSOutlineView+SaveState.swift */,
+				7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */,
 				7B6CCF151B6E811B00AE0438 /* NSViewController+Inject.swift */,
 				7B8C1F441B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B908BB11B71D3720039B622 /* NSPopUpButton+Object.swift in Sources */,
 				7B8C1F491B6DCAE00031EDDA /* FilterableDataSource.swift in Sources */,
 				7B8C1F451B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift in Sources */,
 				7B8C1F471B6DC4930031EDDA /* NSOutlineView+SaveState.swift in Sources */,
