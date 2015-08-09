@@ -14,6 +14,8 @@
 		7B8C1F491B6DCAE00031EDDA /* FilterableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F481B6DCAE00031EDDA /* FilterableDataSource.swift */; };
 		7B8C1F4B1B6DDA2E0031EDDA /* FilterableOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F4A1B6DDA2E0031EDDA /* FilterableOutlineView.swift */; };
 		7B908BB11B71D3720039B622 /* NSPopUpButton+Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */; };
+		7B97B4C71B770509004BB472 /* NSRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B97B4C61B770509004BB472 /* NSRange.swift */; };
+		7BE3223E1B76B1EE002818C4 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE3223D1B76B1EE002818C4 /* ScrollableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7B8C1F481B6DCAE00031EDDA /* FilterableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterableDataSource.swift; sourceTree = "<group>"; };
 		7B8C1F4A1B6DDA2E0031EDDA /* FilterableOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterableOutlineView.swift; sourceTree = "<group>"; };
 		7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSPopUpButton+Object.swift"; sourceTree = "<group>"; };
+		7B97B4C61B770509004BB472 /* NSRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRange.swift; sourceTree = "<group>"; };
+		7BE3223D1B76B1EE002818C4 /* ScrollableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +68,10 @@
 				7B8C1F3E1B6DBDB80031EDDA /* Info.plist */,
 				7B8C1F461B6DC4930031EDDA /* NSOutlineView+SaveState.swift */,
 				7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */,
+				7B97B4C61B770509004BB472 /* NSRange.swift */,
 				7B6CCF151B6E811B00AE0438 /* NSViewController+Inject.swift */,
 				7B8C1F441B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift */,
+				7BE3223D1B76B1EE002818C4 /* ScrollableView.swift */,
 			);
 			path = ExtraAppKit;
 			sourceTree = "<group>";
@@ -154,6 +160,8 @@
 				7B8C1F451B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift in Sources */,
 				7B8C1F471B6DC4930031EDDA /* NSOutlineView+SaveState.swift in Sources */,
 				7B8C1F4B1B6DDA2E0031EDDA /* FilterableOutlineView.swift in Sources */,
+				7BE3223E1B76B1EE002818C4 /* ScrollableView.swift in Sources */,
+				7B97B4C71B770509004BB472 /* NSRange.swift in Sources */,
 				7B6CCF161B6E811B00AE0438 /* NSViewController+Inject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
