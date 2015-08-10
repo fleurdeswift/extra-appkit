@@ -23,4 +23,10 @@ public extension NSRange {
     public func intersects(range2: NSRange) -> Bool {
         return (self.location < range2.location + range2.length && range2.location < self.location + self.length);
     }
+    
+    public var end: NSInteger {
+        get {
+            return self.location + self.length;
+        }
+    }
 }
