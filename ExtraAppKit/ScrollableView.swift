@@ -42,6 +42,8 @@ public class ScrollableView : NSView {
             
             let center = NSNotificationCenter.defaultCenter();
             
+            center.removeObserver(self, name: NSViewBoundsDidChangeNotification, object: nil);
+            center.removeObserver(self, name: NSViewFrameDidChangeNotification,  object: nil);
             center.addObserver(self, selector: Selector("clipViewBoundDidChange:"), name: NSViewBoundsDidChangeNotification, object: clipView);
             center.addObserver(self, selector: Selector("clipViewFrameDidChange:"), name: NSViewFrameDidChangeNotification,  object: clipView);
         }
@@ -96,13 +98,7 @@ public class ScrollableView : NSView {
         }
     }
 
-    public override init(frame frameRect: NSRect) {
-        super.init(frame: frameRect);
-        setupScrollView();
-    }
-    
-    public required init?(coder: NSCoder) {
-        super.init(coder: coder);
+    public override func viewDidMoveToSuperview() {
         setupScrollView();
     }
 }
