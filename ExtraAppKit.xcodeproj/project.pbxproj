@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7995A6D01B8C209800BCE8EE /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7995A6CF1B8C209800BCE8EE /* NSURL.swift */; settings = {ASSET_TAGS = (); }; };
+		79FE4CF31B8D56260088A664 /* NSSize+AspectRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FE4CF21B8D56260088A664 /* NSSize+AspectRatio.swift */; settings = {ASSET_TAGS = (); }; };
 		7B6CCF161B6E811B00AE0438 /* NSViewController+Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6CCF151B6E811B00AE0438 /* NSViewController+Inject.swift */; };
 		7B8C1F3D1B6DBDB80031EDDA /* ExtraAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B8C1F3C1B6DBDB80031EDDA /* ExtraAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B8C1F451B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C1F441B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		7995A6CF1B8C209800BCE8EE /* NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL.swift; sourceTree = "<group>"; };
+		79FE4CF21B8D56260088A664 /* NSSize+AspectRatio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSSize+AspectRatio.swift"; sourceTree = "<group>"; };
 		7B6CCF151B6E811B00AE0438 /* NSViewController+Inject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSViewController+Inject.swift"; sourceTree = "<group>"; };
 		7B8C1F391B6DBDB80031EDDA /* ExtraAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExtraAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B8C1F3C1B6DBDB80031EDDA /* ExtraAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtraAppKit.h; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				7B8C1F461B6DC4930031EDDA /* NSOutlineView+SaveState.swift */,
 				7B908BB01B71D3720039B622 /* NSPopUpButton+Object.swift */,
 				7B97B4C61B770509004BB472 /* NSRange.swift */,
+				79FE4CF21B8D56260088A664 /* NSSize+AspectRatio.swift */,
 				7995A6CF1B8C209800BCE8EE /* NSURL.swift */,
 				7B6CCF151B6E811B00AE0438 /* NSViewController+Inject.swift */,
 				7B8C1F441B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift */,
@@ -165,6 +168,7 @@
 				7B908BB11B71D3720039B622 /* NSPopUpButton+Object.swift in Sources */,
 				7B97B5251B78036E004BB472 /* NSBezierPath+Round.swift in Sources */,
 				7B8C1F491B6DCAE00031EDDA /* FilterableDataSource.swift in Sources */,
+				79FE4CF31B8D56260088A664 /* NSSize+AspectRatio.swift in Sources */,
 				7B8C1F451B6DBE3F0031EDDA /* OutlineViewDataSourceProxy.swift in Sources */,
 				7B8C1F471B6DC4930031EDDA /* NSOutlineView+SaveState.swift in Sources */,
 				7B8C1F4B1B6DDA2E0031EDDA /* FilterableOutlineView.swift in Sources */,
